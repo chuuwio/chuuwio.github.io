@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content ="width=device-width, initial-scale=1.0">
+        <style>
+            @font-face{
+                font-family: 'pixel';
+                src: url('fonts/pixelpoiiz.ttf');
+
+            }
+
+            @font-face{
+                font-family: 'pixel2';
+                src: url('fonts/rainyhearts.ttf');
+                
+            }
+
+
+            h1{
+                font-family:'pixel';
+            }
+
+            html{
+                height: 100%;
+            }
+           body{
+            width: 100%;
+            background-color: #845ec2;
+            background-image: linear-gradient(to bottom right, #845ec2, #ff9671, #f9f871);
+            font-family:'pixel';
+            }
+
+           .center{
+            left: 0;
+            line-height: 90px;
+            margin-top: -100px;
+            position: absolute;
+            text-align: center;
+            top: 50%;
+            width: 100%;
+
+           }
+           
+           #btn {
+            position: fixed;
+            transition: .3s;
+            color: white;
+            background-color: #ff9cad;
+            padding: 17px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-family:'pixel2';
+            
+            }
+
+           .button {
+            position: fixed;
+            background-color: #ff9cad;          
+            text-align: center;
+            color: white;
+            padding: 18px 20px;
+            margin-left: -150px;
+           
+            text-decoration: none;
+            font-size: 16px;
+            font-family:'pixel2';
+            }
+
+            .popup .popuptext {
+            visibility: hidden;
+            background-color: none;
+            color: #fff;
+            text-align: center;
+            border-radius: 0px;
+            padding: 0px 0;
+            z-index: 1;
+            bottom: 15%;
+            left: 50%;
+            margin-left: -80px;
+            }
+            .popup .show {
+            visibility: visible;
+            -webkit-animation: fadeIn 1s;
+            animation: fadeIn 1s;
+            }
+            @-webkit-keyframes fadeIn {
+            from {opacity: 0;} 
+            to {opacity: 1;}
+            }
+            @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity:1 ;}
+            }
+            
+           
+        </style>
+        <title>For Douglas</title>
+
+        
+    </head>
+    <body>
+        <div class = "center">
+        <h1 style ="color: white;" >hi douglas!!! do you wanna go on a date with me?</h1>
+
+        <a href ="cat.html">
+         <button class = "button">yes!!! ( ˘ ³˘)♥</button>  
+        </a>
+
+        <button id="btn">no... (╥﹏╥) </button>  
+        </div>
+
+        <script src="file.js"></script>
+    </body>
+</html>
